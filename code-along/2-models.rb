@@ -72,7 +72,7 @@ puts amazon["url"]
 
 # 7. delete a row
 
-twitter = Company.find_by({"name"=> "Apple"})
-twitter.destroy
+amazon2 = Company.find_by({"name"=> "Amazon"})
+amazon2.destroy
 
 puts "There are #{Company.all.count} companies"
